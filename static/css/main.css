@@ -1,0 +1,180 @@
+#main {
+    margin: 2rem;
+}
+
+#particles-js {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    scale: 1;
+}
+
+.generated-title {
+    margin-top: 6rem;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1, h2, h3 {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0rem;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;;
+}
+form {
+    margin-top: 3rem;
+}
+
+#imagePreview {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #ccc;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#imagePreview img {
+    max-width: 100%;
+    max-height: 100%;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label, button {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    background: linear-gradient(270deg, #e615c0c7, #eb4d4d, #bb22dd);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.glass{
+    background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.1),
+    rgba(217, 217, 217, 0.05)
+    );
+    box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 0px;
+    border: none;
+}
+
+.img-share {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 384px;
+    height: 256px;
+}
+
+#image-shares{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+
+decode-button {
+    border-radius: 0px;
+    border: none;
+}
+
+#generated-title {
+    margin-top: 4rem;
+}
+
+footer {
+    margin-top: 5rem;
+    color: rgba(255, 255, 255, 0.85);    
+    font-weight: 600;
+    font-size: 1.2rem;
+}
